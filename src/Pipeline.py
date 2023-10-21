@@ -10,7 +10,7 @@ df = pd.read_excel('data/Ventas_Videojuegos.xlsx')
 df['Año'] = df['Año'].astype(str)
 
 ### 3. Eliminar la variable 'Ventas Global'
-df = df.drop('Ventas Global', axis=1)
+#df = df.drop('Ventas Global', axis=1)
 
 ### 4. Se reemplazan valores nulos de la variable Editorial por la Moda
 columnas_categoricas = df.select_dtypes(include=['object']).columns
