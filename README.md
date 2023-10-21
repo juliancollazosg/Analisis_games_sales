@@ -15,8 +15,10 @@ Para ejecutar la aplicación, asegúrate de tener Streamlit instalado y luego ej
 
 El código del proyecto está organizado de la siguiente manera:
 
-- `app.py`: El archivo principal que contiene la aplicación Streamlit.
-- `ventas_clean.csv`: El conjunto de datos de ventas de videojuegos.
+python -m streamlit run main.py --server.port 80
+
+- `main.py`: El archivo principal que contiene la aplicación Streamlit.
+- `dataclean/ventas_clean.csv`: El conjunto de datos de ventas de videojuegos.
 
 ## Requerimientos
 
@@ -29,6 +31,8 @@ Asegúrate de tener instaladas las siguientes bibliotecas de Python:
 
 Puedes instalarlas utilizando pip:
 
+pip install -r requeriments.txt
+
 
 ## Contribuciones
 
@@ -36,7 +40,10 @@ Puedes instalarlas utilizando pip:
 
 ## Autor
 
-[Nombre del autor]
+- Mildred Sosa
+- Julian Collazos
+- Diego Jimenez
+- Ivan Laverde
 
 ## Licencia
 
