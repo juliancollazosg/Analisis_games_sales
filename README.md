@@ -10,12 +10,11 @@ Este proyecto utiliza Streamlit para crear una aplicación web que analiza las v
 
 Para ejecutar la aplicación, asegúrate de tener Streamlit instalado y luego ejecuta el siguiente comando:
 
+python -m streamlit run main.py --server.port 80
 
 ## Estructura del Código
 
 El código del proyecto está organizado de la siguiente manera:
-
-python -m streamlit run main.py --server.port 80
 
 - `main.py`: El archivo principal que contiene la aplicación Streamlit.
 - `dataclean/ventas_clean.csv`: El conjunto de datos de ventas de videojuegos.
